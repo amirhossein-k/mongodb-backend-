@@ -25,7 +25,3 @@ app.use('/api/test',(req,res)=> res.send({message:'hello'}))
 app.use('/api/user',userRoutes)
 
 
-// FOR deploy backend on vercel
-// step 1:
-// ceate file vercel.json
-// step 2 write this code
